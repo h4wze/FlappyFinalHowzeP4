@@ -20,7 +20,7 @@ public class RepeatingBackground : MonoBehaviour
     {
         if (transform.position.x < -groundHorizontalLength)
         {
-            RepositionBackground();
+           
 
             Vector2 groundOffSet = new Vector2(groundHorizontalLength * 2f, 0);
             transform.position = (Vector2)transform.position + groundOffSet;
